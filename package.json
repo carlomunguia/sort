@@ -1,0 +1,26 @@
+{
+  "name": "sort",
+  "version": "1.0.0",
+  "description": "\"# sort\"",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start":"concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlomunguia/sort.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlomunguia/sort/issues"
+  },
+  "homepage": "https://github.com/carlomunguia/sort#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}
